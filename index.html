@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChatGPT Chatbot</title>
+    <style>
+      .chat-window {
+        width: 500px;
+        height: 400px;
+        border: 1px solid black;
+        overflow: auto;
+      }
+
+      .message {
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        display: inline-block;
+      }
+
+      .user-message {
+        background-color: lightblue;
+        float: right;
+      }
+
+      .chatbot-message {
+        background-color: lightgray;
+        float: left;
+      }
+
+      .chat-input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chat-window">
+      <div class="message user-message">
+        Hi, how can I help you today?
+      </div>
+      <div class="message chatbot-message">
+        Hello! I would like some information about your products.
+      </div>
+    </div>
+    <input class="chat-input" type="text" placeholder="Type your message here">
+  </body>
+</html>
